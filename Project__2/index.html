@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match It Up!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="home-screen">
+    <h1>Match It Up! 🎮 </h1>
+    <div class="options">
+      <button id="option-fruits">🍉 Fruits</button>
+      <button id="option-emojis">🙂 Emojis</button>
+      <button id="option-animals">🐶 Animals</button>
+      <button id="option-planets">🌎 Planets</button>
+      <button id="option-flags">🏴‍☠️ Flags</button>
+    </div>
+  </div>
+
+  <div class="play-screen hidden">
+    <div class="stats">
+      <p>Score: <span id="current-score">0</span></p>
+      <p>Timer: <span id="countdown">30</span>s</p>
+    </div>
+    <div class="card-area"></div>
+    <div class="result-screen hidden">
+      <h2>Game Over!</h2>
+      <p>Final Score: <span id="final-score">0</span></p>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+  <audio id="flip-audio" src="flip.mp3"></audio>
+  <audio id="match-audio" src="match.mp3"></audio>
+  <audio id="end-audio" src="game-over.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
