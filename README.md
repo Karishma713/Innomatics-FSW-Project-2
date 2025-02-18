@@ -1,4 +1,4 @@
-#   🧠 Memory Match Game 🎮
+#   Match It Up!🎰
 
 
 ## 🎮 About the Game
@@ -47,4 +47,4 @@ Feel free to contribute! Open an issue or submit a pull request.
 ![img-3](Project__2/out-3.png)
 
 ## Video
-[You can Download Output Video from here](Project-2/otput_video.mov)
+[You can Download Output Video from here](Project__2/Output_video.mov)
